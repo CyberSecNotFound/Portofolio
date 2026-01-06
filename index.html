@@ -551,31 +551,22 @@
         <!-- IMAGE -->
        <div class="relative flex justify-center items-center floating" style="perspective: 1000px;">
     <div id="hero-image-wrapper"
-         class="w-40 h-80 md:w-48 md:h-96 relative">
+         class="w-40 h-80 md:w-48 md:h-96 relative overflow-hidden">
 
-        <!-- Animated Cyber Frame -->
-        <div class="absolute -inset-2 rounded-3xl
-                    bg-gradient-to-br from-cyan-400 via-fuchsia-500 to-cyan-400
-                    opacity-60 blur-xl animate-pulse"></div>
-
-        <!-- Inner Glow -->
+        <!-- Glow -->
         <div class="absolute inset-0 rounded-2xl
-                    bg-gradient-to-tr from-cyan-500/20 to-fuchsia-600/20
-                    backdrop-blur-sm"></div>
+                    bg-gradient-to-br from-cyan-500 to-fuchsia-600
+                    blur-2xl opacity-50 animate-pulse"></div>
 
         <!-- Image -->
         <img src="https://raw.githubusercontent.com/CyberSecNotFound/Portofolio/main/foto.png"
              alt="Hazdizdul A'la"
-             class="w-full h-full object-cover rounded-2xl
+             class="w-full h-full object-cover
+                    rounded-2xl
                     border border-cyan-400/40
-                    shadow-[0_0_40px_rgba(0,246,255,0.45)]
+                    shadow-[0_0_35px_rgba(0,246,255,0.4)]
                     relative z-10"
              loading="lazy">
-
-        <!-- Scan Line Effect -->
-        <div class="absolute inset-0 rounded-2xl pointer-events-none
-                    bg-[linear-gradient(to_bottom,transparent,rgba(0,246,255,0.08),transparent)]
-                    animate-pulse"></div>
     </div>
 </div>
     </div>
