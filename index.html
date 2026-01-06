@@ -546,31 +546,35 @@
                 </a>
             </div>
         </div>
-
-        <!-- IMAGE -->
        <div class="relative flex justify-center items-center floating" style="perspective: 1000px;">
-    <div id="hero-image-wrapper"
-         class="w-44 h-64 md:w-52 md:h-80 relative overflow-hidden rounded-2xl">
 
-        <!-- CYBER GLOW (FOLLOW RECTANGLE) -->
-        <div class="absolute -inset-2 rounded-3xl
+    <!-- OUTER WRAPPER (UNTUK GLOW, TIDAK DIPOTONG) -->
+    <div class="relative">
+
+        <!-- CYBER GLOW -->
+        <div class="absolute -inset-3 rounded-3xl
                     bg-gradient-to-br from-cyan-500 to-fuchsia-600
-                    blur-2xl opacity-50 animate-pulse"></div>
+                    blur-3xl opacity-60 animate-pulse"></div>
 
-        <!-- INNER GLOW -->
-        <div class="absolute inset-0 rounded-2xl
-                    bg-gradient-to-tr from-cyan-500/20 to-fuchsia-600/20
-                    backdrop-blur-sm"></div>
+        <!-- IMAGE WRAPPER (BENTUK ASLI) -->
+        <div id="hero-image-wrapper"
+             class="w-44 h-64 md:w-52 md:h-80 relative overflow-hidden rounded-2xl">
 
-        <!-- IMAGE -->
-        <img src="https://raw.githubusercontent.com/CyberSecNotFound/Portofolio/main/foto.png"
-             alt="Hazdizdul A'la"
-             class="w-full h-full object-cover
-                    rounded-2xl
-                    border border-cyan-400/40
-                    shadow-2xl shadow-fuchsia-500/20
-                    relative z-10"
-             loading="lazy">
+            <!-- INNER GLOW -->
+            <div class="absolute inset-0 rounded-2xl
+                        bg-gradient-to-tr from-cyan-500/20 to-fuchsia-600/20"></div>
+
+            <!-- IMAGE -->
+            <img src="https://raw.githubusercontent.com/CyberSecNotFound/Portofolio/main/foto.png"
+                 alt="Hazdizdul A'la"
+                 class="w-full h-full object-cover
+                        rounded-2xl
+                        border border-cyan-400/40
+                        shadow-2xl shadow-fuchsia-500/20
+                        relative z-10"
+                 loading="lazy">
+        </div>
+
     </div>
 </div>
     </div>
