@@ -1073,9 +1073,7 @@
             <p class="text-slate-500 mb-4">
                 © <span id="current-year"></span> 404 Not Found CyberSec. All rights reserved.
             </p>
-            <p class="text-slate-500">
-                Designed with <i class="fas fa-crosshairs"></i> & <i class="fas fa-code text-cyan-400"></i> using modern web technologies.
-            </p>
+            
         </div>
     </footer>
 
@@ -1166,7 +1164,6 @@
                 });
             });
 
-            // --- Hero Section Parallax Effect ---
             const heroContent = document.getElementById('hero-content');
             const hero = document.getElementById('hero');
             if (heroContent && hero) {
@@ -1178,7 +1175,6 @@
                 });
             }
 
-            // --- Mobile menu toggle ---
             const mobileMenuButton = document.getElementById('mobile-menu-button');
             const mobileMenu = document.getElementById('mobile-menu');
             if (mobileMenuButton && mobileMenu) {
@@ -1190,7 +1186,6 @@
                 });
             }
 
-            // --- Scroll reveal animation ---
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -1199,8 +1194,7 @@
                 });
             }, { threshold: 0.1 });
             document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-            // --- Smooth scrolling & Active Nav Link ---
+            
             const sections = document.querySelectorAll('section[id]');
             const navLinks = document.querySelectorAll('.nav-link');
             
